@@ -1,5 +1,39 @@
 # modular-scripts
 
+## 3.1.6
+
+### Patch Changes
+
+- [#1928](https://github.com/jpmorganchase/modular/pull/1928)
+  [`0a3bcfb`](https://github.com/jpmorganchase/modular/commit/0a3bcfb7640119a7fa5108e514d2f6855f8d5ad5)
+  Thanks [@cristiano-belloni](https://github.com/cristiano-belloni)! - Add
+  template docs and correct command help description for the --template option
+
+* [#1926](https://github.com/jpmorganchase/modular/pull/1926)
+  [`3e95003`](https://github.com/jpmorganchase/modular/commit/3e950034d47c8cacdf07ff0014feac373a83947d)
+  Thanks [@dependabot](https://github.com/apps/dependabot)! - Bump
+  postcss-loader from 7.0.0 to 7.0.1
+
+- [#1896](https://github.com/jpmorganchase/modular/pull/1896)
+  [`bedef0a`](https://github.com/jpmorganchase/modular/commit/bedef0a04f83eb2de58dcb35ae04b4c44b38aa14)
+  Thanks [@dependabot](https://github.com/apps/dependabot)! - Bump npm-packlist
+  from 5.1.0 to 5.1.1
+
+* [#1889](https://github.com/jpmorganchase/modular/pull/1889)
+  [`9ecf69a`](https://github.com/jpmorganchase/modular/commit/9ecf69a121568879dbcc292c0ad48471be57b662)
+  Thanks [@dependabot](https://github.com/apps/dependabot)! - Bump filesize from
+  9.0.1 to 9.0.11
+
+- [#1897](https://github.com/jpmorganchase/modular/pull/1897)
+  [`23d5e33`](https://github.com/jpmorganchase/modular/commit/23d5e332c0955216b6741b54202e655820828a33)
+  Thanks [@dependabot](https://github.com/apps/dependabot)! - Bump
+  webpack-dev-server from 4.9.2 to 4.9.3
+
+* [#1879](https://github.com/jpmorganchase/modular/pull/1879)
+  [`f8bfdc6`](https://github.com/jpmorganchase/modular/commit/f8bfdc600c2b90bdbc9791febc85840515aca562)
+  Thanks [@dependabot](https://github.com/apps/dependabot)! - Bump sass-loader
+  from 13.0.0 to 13.0.2
+
 ## 3.1.5
 
 ### Patch Changes
