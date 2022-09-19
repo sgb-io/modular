@@ -82,7 +82,7 @@
     "mime": "^3.0.0",
     "mini-css-extract-plugin": "2.6.1",
     "npm-packlist": "5.1.1",
-    "open": "8.3.0",
+    "open": "8.4.0",
     "parse5": "6.0.1",
     "pkg-up": "3.1.0",
     "pnp-webpack-plugin": "1.7.0",
