@@ -1833,14 +1833,15 @@
     d3fc "14.0.40"
     gradient-parser "0.1.5"
 
-"@finos/perspective-viewer-datagrid@0.6.0":
-  version "0.6.0"
-  resolved "https://registry.yarnpkg.com/@finos/perspective-viewer-datagrid/-/perspective-viewer-datagrid-0.6.0.tgz#ad56ac5e60a99a9de3a0c3cb796042e28ac652a3"
-  integrity sha512-XX+HW1ah6dml4fBQIjGXCKKZHf72921pTxm0sFvElw7PY71+0bkcUvVqgxtnwOyL9eDBo4s7BYMqjtAY11T9jA==
+"@finos/perspective-viewer-datagrid@1.7.1":
+  version "1.7.1"
+  resolved "https://registry.yarnpkg.com/@finos/perspective-viewer-datagrid/-/perspective-viewer-datagrid-1.7.1.tgz#112f7266c2f1a39b6c318ab3b23b7b2e7cb48dd4"
+  integrity sha512-qnPccwyAICSYO7PCoArueEcVu3suEtmmBlW2vQV+hzwfk1ZpJXjHtBfnpn10CMkweq7/U2F38htZIBv68NPvHQ==
   dependencies:
-    "@finos/perspective" "^0.6.0"
-    "@finos/perspective-viewer" "^0.6.0"
-    regular-table "=0.1.5"
+    "@finos/perspective" "^1.7.1"
+    "@finos/perspective-viewer" "^1.7.1"
+    chroma-js "^1.3.4"
+    regular-table "=0.5.6"
 
 "@finos/perspective-viewer@0.6.0":
   version "0.6.0"
@@ -1880,6 +1881,15 @@
     lodash "^4.17.4"
     mobile-drag-drop "^2.3.0-rc.2"
 
+"@finos/perspective-viewer@^1.7.1":
+  version "1.7.1"
+  resolved "https://registry.yarnpkg.com/@finos/perspective-viewer/-/perspective-viewer-1.7.1.tgz#052cd09cbc7c1fec0bb479807bbb37a83ec58283"
+  integrity sha512-SZJUuuyEa4O0KWITiCqW8MPGRmclpzWnc7qUXzQdGqCJgWXBiI/e5OrMMOzhtfoyooU2iFxRMVYGysNYkY08kQ==
+  dependencies:
+    "@finos/perspective" "^1.7.1"
+    fflate "^0.7.2"
+    mobile-drag-drop-shadow-dom "3.0.0"
+
 "@finos/perspective@0.6.2", "@finos/perspective@^0.6.0", "@finos/perspective@^0.6.2":
   version "0.6.2"
   resolved "https://registry.yarnpkg.com/@finos/perspective/-/perspective-0.6.2.tgz#ca256a615c42803766965049a93e9e55ba8de760"
@@ -1893,6 +1903,14 @@
     lodash "^4.17.4"
     text-encoding-utf-8 "^1.0.2"
     tslib "^1.9.3"
+    ws "^6.1.2"
+
+"@finos/perspective@^1.7.1":
+  version "1.7.1"
+  resolved "https://registry.yarnpkg.com/@finos/perspective/-/perspective-1.7.1.tgz#bf5aee1835928f9cc7ef84e6ee9c1ceb1f6cb32c"
+  integrity sha512-0iTavCo0jDrgaKwYTFFngDtuMQTbsWMp5MvOs8MQsWOK4uAFEnM6PTEvso78yhOc9s3yiAti6CIQaXBfRfc2SA==
+  dependencies:
+    fflate "^0.7.2"
     ws "^6.1.2"
 
 "@humanwhocodes/config-array@^0.5.0":
@@ -6477,6 +6495,11 @@ fd-slicer@~1.1.0:
   dependencies:
     pend "~1.2.0"
 
+fflate@^0.7.2:
+  version "0.7.4"
+  resolved "https://registry.yarnpkg.com/fflate/-/fflate-0.7.4.tgz#61587e5d958fdabb5a9368a302c25363f4f69f50"
+  integrity sha512-5u2V/CDW15QM1XbbgS+0DfPxVB+jUKhWEKuuFuHncbk3tEEqzmoXL+2KyOFuKGqOnmdIy0/davWF1CkuwtibCw==
+
 file-entry-cache@^6.0.1:
   version "6.0.1"
   resolved "https://registry.yarnpkg.com/file-entry-cache/-/file-entry-cache-6.0.1.tgz#211b2dd9659cb0394b073e7323ac3c933d522027"
@@ -8960,6 +8983,11 @@ mkdirp@1.x, mkdirp@^1.0.4:
   resolved "https://registry.yarnpkg.com/mkdirp/-/mkdirp-1.0.4.tgz#3eb5ed62622756d79a5f0e2a221dfebad75c2f7e"
   integrity sha512-vVqVZQyf3WLx2Shd0qJ9xuvqgAyKPLAiqITEtqW0oIUjzo3PePDd6fW9iFz30ef7Ysp/oiWqbhszeGWW2T6Gzw==
 
+mobile-drag-drop-shadow-dom@3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/mobile-drag-drop-shadow-dom/-/mobile-drag-drop-shadow-dom-3.0.0.tgz#f91014af66a0331338d4dfef30ecc5ddcb5a0687"
+  integrity sha512-cNDH83lfYhllESH+ddjyxXdnjunLec0ldnygm3nWY1zMtfeA1tHoVsAasZy63QhnRuN4ps0pGuL8TolUK/sYjA==
+
 mobile-drag-drop@^2.3.0-rc.2:
   version "2.3.0-rc.2"
   resolved "https://registry.yarnpkg.com/mobile-drag-drop/-/mobile-drag-drop-2.3.0-rc.2.tgz#00d6e85e04512a620fd5357366e8786bd29aa7aa"
@@ -10680,10 +10708,10 @@ regjsparser@^0.8.2:
   dependencies:
     jsesc "~0.5.0"
 
-regular-table@=0.1.5:
-  version "0.1.5"
-  resolved "https://registry.yarnpkg.com/regular-table/-/regular-table-0.1.5.tgz#11e4ba9fd799800006d27a9f5415bf33c0cd0246"
-  integrity sha512-cNBVD8Qw/o9rqs3h4bS/4cnDSyH5egAcBT2bJw7ihKQQFIz6MtJoE9iIC/kozTPlIK//EiFw5C4VKKkckElwmQ==
+regular-table@=0.5.6:
+  version "0.5.6"
+  resolved "https://registry.yarnpkg.com/regular-table/-/regular-table-0.5.6.tgz#9b14ab61590ff41c709986ef7ca66ade427bde4b"
+  integrity sha512-lScNtcqjNcPaFYSeDRNsC+t2P/IzYCLKJNls1hBQAyTtWatX94zO87n2ExEPCnbbkKHGYEZ8Uo8Dgvcw34yTQA==
 
 relateurl@^0.2.7:
   version "0.2.7"
