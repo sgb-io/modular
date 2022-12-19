@@ -48,7 +48,7 @@
     "dedent": "0.7.0",
     "detect-port-alt": "1.1.6",
     "dotenv": "16.0.1",
-    "dotenv-expand": "8.0.3",
+    "dotenv-expand": "10.0.0",
     "esbuild": "0.14.42",
     "esbuild-loader": "2.19.0",
     "escape-string-regexp": "2.0.0",
