@@ -1842,24 +1842,14 @@
     "@finos/perspective-viewer" "^0.6.0"
     regular-table "=0.1.5"
 
-"@finos/perspective-viewer@0.6.0":
-  version "0.6.0"
-  resolved "https://registry.yarnpkg.com/@finos/perspective-viewer/-/perspective-viewer-0.6.0.tgz#dfd2e1fe2a09504e87c7ac758157f0438a8228dd"
-  integrity sha512-1sTX7pnb4nbg9OgfqYVAAbY1mUIaC4Lsig0KGiMSBG2QZpgEqJ9gk60m2lW20msOdPR3Dv9/FZ6cQAqIPkfh1w==
+"@finos/perspective-viewer@1.9.2":
+  version "1.9.2"
+  resolved "https://registry.yarnpkg.com/@finos/perspective-viewer/-/perspective-viewer-1.9.2.tgz#125962e7ce0ea8ba242f236c27f02b3c967ae2c6"
+  integrity sha512-Rjt9xlxAlN2qU10K/UACreBS9hShz2nvfHQi7sj55aVVNRJkffd+bl52InEgTbDUGcNeyoeuqNdo/q/NXJbNCg==
   dependencies:
-    "@babel/runtime" "^7.8.4"
-    "@finos/perspective" "^0.6.0"
-    "@types/react" "^16.9.17"
-    "@webcomponents/shadycss" "^1.5.2"
-    "@webcomponents/webcomponentsjs" "~2.0.4"
-    awesomplete "^1.1.2"
-    chevrotain "^6.5.0"
-    core-js "^3.6.4"
-    d3-array "^1.2.1"
-    detectie "1.0.0"
-    lit-html "^1.1.2"
-    lodash "^4.17.4"
-    mobile-drag-drop "^2.3.0-rc.2"
+    "@finos/perspective" "^1.9.2"
+    fflate "^0.7.4"
+    mobile-drag-drop-shadow-dom "3.0.0"
 
 "@finos/perspective-viewer@^0.6.0":
   version "0.6.2"
@@ -1893,6 +1883,14 @@
     lodash "^4.17.4"
     text-encoding-utf-8 "^1.0.2"
     tslib "^1.9.3"
+    ws "^6.1.2"
+
+"@finos/perspective@^1.9.2":
+  version "1.9.2"
+  resolved "https://registry.yarnpkg.com/@finos/perspective/-/perspective-1.9.2.tgz#85c8023635abb09c35ce50cdc0aeb470c1a6d0b8"
+  integrity sha512-yahKttmKAxIzP/Ega8vkEOslPEeqBfl4fuPWJlaNzwx21/m7kcFcQiCGAqPsQo7grFmcPmATcHyUx0sG4pN7LQ==
+  dependencies:
+    fflate "^0.7.4"
     ws "^6.1.2"
 
 "@humanwhocodes/config-array@^0.5.0":
@@ -2894,7 +2892,7 @@
     "@types/scheduler" "*"
     csstype "^3.0.2"
 
-"@types/react@^16.8.6", "@types/react@^16.9.17":
+"@types/react@^16.8.6":
   version "16.14.23"
   resolved "https://registry.yarnpkg.com/@types/react/-/react-16.14.23.tgz#37201b9f2324c5ff8fa4600dbf19079dfdffc880"
   integrity sha512-WngBZLuSkP4IAgPi0HOsGCHo6dn3CcuLQnCfC17VbA7YBgipZiZoTOhObwl/93DsFW0Y2a/ZXeonpW4DxirEJg==
@@ -6477,6 +6475,11 @@ fd-slicer@~1.1.0:
   dependencies:
     pend "~1.2.0"
 
+fflate@^0.7.4:
+  version "0.7.4"
+  resolved "https://registry.yarnpkg.com/fflate/-/fflate-0.7.4.tgz#61587e5d958fdabb5a9368a302c25363f4f69f50"
+  integrity sha512-5u2V/CDW15QM1XbbgS+0DfPxVB+jUKhWEKuuFuHncbk3tEEqzmoXL+2KyOFuKGqOnmdIy0/davWF1CkuwtibCw==
+
 file-entry-cache@^6.0.1:
   version "6.0.1"
   resolved "https://registry.yarnpkg.com/file-entry-cache/-/file-entry-cache-6.0.1.tgz#211b2dd9659cb0394b073e7323ac3c933d522027"
@@ -8959,6 +8962,11 @@ mkdirp@1.x, mkdirp@^1.0.4:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/mkdirp/-/mkdirp-1.0.4.tgz#3eb5ed62622756d79a5f0e2a221dfebad75c2f7e"
   integrity sha512-vVqVZQyf3WLx2Shd0qJ9xuvqgAyKPLAiqITEtqW0oIUjzo3PePDd6fW9iFz30ef7Ysp/oiWqbhszeGWW2T6Gzw==
+
+mobile-drag-drop-shadow-dom@3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/mobile-drag-drop-shadow-dom/-/mobile-drag-drop-shadow-dom-3.0.0.tgz#f91014af66a0331338d4dfef30ecc5ddcb5a0687"
+  integrity sha512-cNDH83lfYhllESH+ddjyxXdnjunLec0ldnygm3nWY1zMtfeA1tHoVsAasZy63QhnRuN4ps0pGuL8TolUK/sYjA==
 
 mobile-drag-drop@^2.3.0-rc.2:
   version "2.3.0-rc.2"
