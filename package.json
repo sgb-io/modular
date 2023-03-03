@@ -80,7 +80,7 @@
     "esbuild": "0.14.51",
     "eslint": "8.28.0",
     "execa": "5.1.1",
-    "husky": "8.0.1",
+    "husky": "8.0.3",
     "is-ci": "2.0.0",
     "lint-staged": "12.4.1",
     "micromatch": "4.0.5",
