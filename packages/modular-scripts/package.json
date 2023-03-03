@@ -41,7 +41,7 @@
     "@types/npmcli__arborist": "^5.6.0",
     "@types/yarnpkg__lockfile": "^1.1.5",
     "@yarnpkg/lockfile": "^1.1.0",
-    "address": "1.2.1",
+    "address": "1.2.2",
     "babel-jest": "^29.0.0",
     "babel-preset-react-app": "10.0.1",
     "browserslist": "4.20.3",
