@@ -114,7 +114,7 @@
     "rollup": "2.75.5",
     "rollup-plugin-esbuild": "^5.0.0",
     "rollup-plugin-postcss": "4.0.2",
-    "sass-loader": "13.0.2",
+    "sass-loader": "13.2.1",
     "semver": "7.3.7",
     "semver-regex": "3.1.4",
     "shell-quote": "1.7.3",
